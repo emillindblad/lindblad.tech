@@ -4,19 +4,18 @@ body {
     margin: 0 auto;
     max-width: 75em;
     padding: 0 2em;
-    font: 1.2em/1.62 monospace;
+    font: 1.3em/1.62 monospace;
     margin-top: 8em;
     padding-bottom: 4em;
 }
 
-a:link {color:#9cf}
-a:hover, a:visited:hover {color:#cef}
-a:visited {color:#c9f}
+a:link { color:#9cf }
+a:hover, a:visited:hover { color:#cef }
+a:visited { color:#c9f }
 
 h1,h2,h3 {
     line-height:1.2;
     color: #2bbc8a;
-    /*color: #b8bb26;*/
 }
 
 h1 {
@@ -29,10 +28,6 @@ h2 {
 
 h3 {
     color:#928374;
-}
-
-p {
-    line-height:1.7;
 }
 
 p.footer {
