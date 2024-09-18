@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dvd_wasm</title>
+        <link rel="icon" type="image/png" href="static/favicon.png">
+    </head>
+    <body>
+        <script type="module">
+        import init from './dvd/pkg/dvd.js';
+
+            async function run() {
+                await init();
+            }
+            run();
+
+        </script>
+    </body>
+</html>
