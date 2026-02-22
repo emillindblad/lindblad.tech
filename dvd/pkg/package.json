@@ -1,0 +1,15 @@
+{
+  "name": "dvd",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "dvd_bg.wasm",
+    "dvd.js",
+    "dvd.d.ts"
+  ],
+  "main": "dvd.js",
+  "types": "dvd.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

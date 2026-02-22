@@ -5,15 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dvd</title>
         <link rel="icon" type="image/png" href="static/favicon.png">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js" integrity="sha512-eu9vkh+EbAsW3fMmPTj/DP5W3UegIdu0Z/OABMocvoofx43MYBkcQ9hRIVxZndV1vcCYQwBg+U1PkWl04TD0Jg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <style>
-            body {
-                margin: 0;
-                overflow: hidden;
-            }
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #171717;
+        }
         </style>
     </head>
     <body>
-        <script src="static/dvd.js"></script>
+        <img id="dvd-logo" src="static/dvd.png" hidden>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script type="module">
+            import init from './dvd/pkg/dvd.js';
+            init();
+        </script>
     </body>
 </html>
